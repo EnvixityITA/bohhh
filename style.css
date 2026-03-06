@@ -1,11 +1,14 @@
 body {
   margin: 0;
-  background: black;
-  overflow: hidden;
+  font-family: sans-serif;
+  text-align: center;
+  background: #222;
+  color: #fff;
 }
 
 canvas {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   background: #111;
+  border: 2px solid #555;
 }
