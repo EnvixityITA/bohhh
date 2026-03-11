@@ -1,6 +1,31 @@
-const canvas = document.getElementById('gameCanvas');
-const ctx = canvas.getContext('2d');
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
 
-// semplice esempio: disegna un rettangolo
-ctx.fillStyle = 'red';
-ctx.fillRect(50, 50, 200, 100);
+#game {
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid white;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #777;
+}
